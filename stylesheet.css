@@ -19,10 +19,6 @@
     text-decoration: none;
 }
 
- .nav li a:hover:not(.active) {
-    background-color: #black;
-  }
-
 .active {
     background-color: #FF1493;
 }
@@ -186,7 +182,7 @@ a:hover {
 }
 
 #title {
-	font-size: 180px;
+	font-size: 140px;
   color: #00ffff;
 	font-style: italic;
   padding: 15px;
