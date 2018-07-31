@@ -34,7 +34,6 @@ height: 100%;
 
 
 h1 {
-	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 	font-size: 180px;
   color: #00ffff;
 	font-style: italic;
@@ -44,7 +43,6 @@ h1 {
 
 }
 h2 {
-	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 	font-size: 100px;
   color: #00ffff;
 	font-style: normal;
@@ -54,7 +52,6 @@ h2 {
 }
 
 h3 {
-  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 	font-size: 32px;
   color: #009999;
 	font-style: normal;
@@ -78,7 +75,6 @@ a:hover {
 }
 
 .borderbox1 {
-  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 	font-size: 180px;
   color: #00ffff;
 	font-style: italic;
@@ -89,7 +85,6 @@ a:hover {
 }
 
 .borderbox2 {
-  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 	font-size: 32px;
   color: #009999;
 	font-style: normal;
@@ -191,7 +186,6 @@ a:hover {
 }
 
 #title {
-  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 	font-size: 180px;
   color: #00ffff;
 	font-style: italic;
