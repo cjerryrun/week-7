@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Racquetball-Notable Players</title>
+   <link rel="stylesheet" href="./stylesheet.css">
+   <style>
+   body { background-image: url("https://static1.squarespace.com/static/5511fc7ce4b0a3782aa9418b/t/552ef12ee4b0e9ead81ceefd/1429139759978/learning-the-grid-method.jpg?format=1000w");
+   }
+   </style>
+</head>
+
+<body>
+  <div class="borderbox1">
+  <h2><center>Notable Players</center></h2>
+</div>
+
+<ul class="nav">
+  <li><a class="active" href="./index.html">Home</a></li>
+  <li><a href="./notable_players.html">Notable Players</a></li>
+  <li><a href="./find a league near you.html">Find A League</a></li>
+  <li><a href="./comments.html">Comments</a></li>
+</ul>
+
+<div class="gallery">
+  <div class="hero"></div>
+  <div class="thumbs"></div>
+</div>
+
+<script>
+var images = [
+  'https://squashmad.com/wp-content/uploads/2014/05/kanePaola1.jpg',
+  'https://squashmad.com/wp-content/uploads/2015/08/CKsKN4MUwAElHe5.jpg',
+  'https://www.tutorialspoint.com/racquetball/images/kane_waselenchuk.jpg',
+  'https://cdn.expansion.mx/dims4/default/81c7618/2147483647/thumbnail/800x450%5E/quality/75/?url=https%3A%2F%2Fcdn.expansion.mx%2Fmedia%2F2013%2F04%2F16%2Fpaola-longoria-raquetbolista-atleta-mexicana.jpg'
+];
+
+var galleryBox = document.querySelector('.gallery');
+
+var heroImage = `<img src="${images[0]}" />`;
+
+var thumbs = "";
+images.forEach(function(image) {
+  thumbs += `<img src="${image}" />`;
+})
+
+var heroDiv = document.querySelector(".hero");
+heroDiv.innerHTML = heroImage;
+
+var thumbDiv = document.querySelector(".thumbs");
+thumbDiv.innerHTML = thumbs;
+
+
+galleryBox.addEventListener('click', function() {
+if (event.target.src){
+  var newImageTemplate = `<img src="${event.target.src}" />`;
+heroDiv.innerHTML = newImageTemplate
+}
+
+
+});
+
+
+</script>
+
+<br>
+    <div class="container">
+    <center><h3>Paola Longoria</h3></center>
+
+    <p> <img class="picture" src="http://gigirockproductions.com/wpro/images/paola_lg.png">Paola is from San Luis Potosí, Mexico and has been a trainblazer in the sport. She is the three time reigning International Racquetball Federation World Champion in Women's Singles. She is currently ranked number one in singles and doubles and is the first player to hold the number one spot in both at Worlds. Having won 8 US opens, Paola is also the first Mexican woman to rise to the #1 pro ranking. In just her mid-20s, Paola is already considered to be one of the greatest female racquetball players of all-time. For a period of three and half years starting in 2011, Longoria went undefeated on the Ladies Professional Racquetball Tour (LPRT). Her streak reached 37 consecutive tournament victories and more than 150 match wins in a row. Paola has won five US OPEN Championships, a record for the sport’s most prestigious professional event. Playing for her home country of Mexico on the international stage, she has won three consecutive Gold Medals at the World Championships and 17 medals overall. As a junior player, Paola won eight World Junior Championships in a row. In 2010 Longoria was awarded Mexico’s National Sports award in 2013 was named by Forbes Magazine to the list of Top Most Influential Women in Mexico. Paola Longoria, isn't just a champion racquetball player, she's a record-breaker who's taken the sport to new highs. With a unique style characterised by her use of the rare semi-western grip, the Mexican player is a three time International Racquetball Federation world champion in both singles and doubles categories, and the first ever player to hold both titles simultaneously. Other records Longoria holds include being the first Mexican player to be ranked world No.1 – a position she's held for the past five seasons – becoming the first Mexican player to win the US Open, and an unbeaten streak that lasted for an incredible three and a half year period between 2011 and 2014. In total she has a massive 71 titles to her name worldwide. In recognition of her racquetball achievements, Longoria was awarded the National Sports Award from the Mexican president in 2010, the highest award a Mexican athlete can be honoured with. </p>
+  </div>
+
+<br>
+
+</br>
+    <div class="container">
+    <center><h3>Kane Waselenchuk</h3></center>
+
+    <p> <img class="picture" src="https://pbs.twimg.com/media/CFIlycJUkAEw2aI.jpg">Kane is from Edmonton, Alberta and has held the number one rank for 12 seasons. He set a record by being the first player to complete a season without losing a single game. Kane was introduced to the sport at the age of 2 when his father took him to his first court. He never had a formal coach and developed his technique all on his own. He currently resides in Austin, Texas with his wife and two kids. His wife, Kim Russell is also a World Champion racquetball player.“He developed a way of teaching called Suggestopedia,” Jim Winterton, the coach, said about Lozanov. “In layman’s terms, it says that everybody has the capacity to be a genius, but the traditional education system screws us up. Children play using all their senses and learn all they know before school, and once they get there, it slows dramatically.” This theory can help explain Waselenchuk’s racquetball prowess, Winterton says, when one considers how Waselenchuk, 30, was groomed at a young age. “There were three things I knew when I first came into this world,” Waselenchuk said. “My mom, my dad and racquetball.” He grew up in Edmonton, Alberta, where his father first took him to the court when he was 2. The racket was so heavy that Waselenchuk hit his first balls with a makeshift substitute: an empty plastic soda bottle. In the years afterward, that court became his sanctuary, and his skills were honed in do-it-yourself fashion. Waselenchuk said he was given pointers by his father, but he never had a formal coach until he turned professional — which meant he never had anyone enforcing the idea that there were right and wrong ways to play; never had anyone to impose regimented habits on him, or constrain his creativity.“I don’t think my legacy will be determined by how many matches I’ve won in a row,” Waselenchuk said. “In football, you can be the No. 1 team, go to the Super Bowl undefeated and still lose. For me, racquetball greatness is measured by year-end No. 1 titles.”</p>
+  </div>
+
+</br>
+</body>

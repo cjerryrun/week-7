@@ -1,0 +1,238 @@
+ .nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #808080;
+}
+
+ .nan li  {
+    float: center;
+}
+
+ .nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ .nav li a:hover:not(.active) {
+    background-color: #black;
+  }
+
+.active {
+    background-color: #FF1493;
+}
+
+body{
+margin:0px;
+height: 100%;
+}
+
+
+h1 {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 180px;
+  color: #00ffff;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 0.75em;
+
+}
+h2 {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 100px;
+  color: #00ffff;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+
+h3 {
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 32px;
+  color: #009999;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #FF1493;
+}
+
+.content {
+    display: flex;
+    justify-content: row;
+
+}
+
+.borderbox1 {
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 180px;
+  color: #00ffff;
+	font-style: italic;
+  border: 1px solid black;
+  padding: 15px;
+  background: white;
+  background-clip: padding-box;
+}
+
+.borderbox2 {
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 32px;
+  color: #009999;
+	font-style: normal;
+  border: 1px solid black;
+  padding: 15px;
+  background: white;
+  background-clip: padding-box;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.borderbox2 img {
+  margin: 0 auto;
+}
+
+.borderbox2 p {
+  font-family: Arial;
+	font-size: 24px;
+  color: black;
+}
+
+.borderbox2 ul {
+  font-family: Arial;
+	font-size: 24px;
+  color: black;
+}
+
+.container {
+  width: 1000px;
+  height: auto;
+  margin: center;
+  font-style: normal;
+  border: 1px solid black;
+  padding: 15px;
+  background: #eee;
+  background-clip: padding-box;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.picture {
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+  float: left;
+}
+
+
+
+.gallery {
+  background: #eee;
+  width: 1000px;
+  margin: 1em auto;
+}
+.gallery img {
+  max-width: 100%;
+  height: auto;
+}
+.gallery .hero {
+  padding: 1em;
+  text-align: center;
+}
+.gallery .thumbs {
+  background: #ddd;
+  padding: 1em;
+  text-align: center;
+}
+.gallery .thumbs img {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+.gallery .active {
+  opacity: 0.5;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+#main {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  border: 1px solid #333;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  background: #808080;
+}
+
+#title {
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 180px;
+  color: #00ffff;
+	font-style: italic;
+  padding: 15px;
+
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 400px;
+  padding: 10px;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+#input {
+  display: flex;
+  }
+
+#text {
+  resize: none;
+  padding: 10px;
+  font-size: 12pt;
+  flex: 2;
+}
+
+#email{
+  flex: 1;
+}
+
+#submit {
+  font-size: 12pt;
+  padding: 20px;
+  background: #FF1493;
+  color: white;
+}
