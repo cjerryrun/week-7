@@ -235,3 +235,22 @@ a:hover {
   background: #FF1493;
   color: white;
 }
+
+table {
+  background-color: #ffffff;
+  width: 80%;
+
+}
+
+td {
+  padding: 25px;
+}
+
+th {
+  text-align: center;
+  font-style: italic;
+  font-size: 22pt;
+  color: #009999
+
+
+}
